@@ -1,0 +1,10 @@
+RANGEY = (-50.048,50.048)
+DOMAIN = (-50.048,50.048)
+NS = 10  #number scouts
+NSB = 2  #number best scouts
+NSE = 2  #number elite scouts
+NFB = NS #number of best foragers
+NFE = NS*3 #number of elite foragers
+NC = 30 #number of cycles shrinking patch
+MAX_CYCLES = 40
+#S_POS = [[0 for x in range(RANGEY)] for x in range(DOMAIN)] 
